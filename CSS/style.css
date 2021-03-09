@@ -1,0 +1,248 @@
+* {
+    margin: 0px;
+    font-family: "Bitter", serif;
+    scroll-behavior: smooth;
+  }
+  .tophead {
+    display: flex;
+    justify-content: space-between;
+    font-family: "Bitter", serif;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    margin: 0px;
+  }
+
+  img.logo {
+    width: 15%;
+
+    margin-left: 180px;
+    vertical-align: middle;
+  }
+  .headcolor {
+    color: rgb(77, 120, 175);
+  }
+  nav.head {
+    display: flex;
+
+    margin-right: 100px;
+    margin-top: 20px;
+  }
+  nav.head li {
+    list-style-type: none;
+    margin-right: 15px;
+    padding: 8px 8px;
+  }
+  a.link {
+    text-decoration: none;
+    color: black;
+    padding: 16px 21px;
+  }
+  a.link:hover {
+    border: 1px solid rgb(236, 235, 235);
+    border-radius: 30px;
+    padding: 16px 20px;
+    color: white;
+    background-color: rgb(133, 167, 231);
+    box-shadow: 0px 25px 14px -5px rgba(0, 0, 0, 0.1);
+  }
+  label{
+   font-size: 30px;
+   margin-right: 80px;
+   margin-top: 10px;
+   display:none;
+  }
+  
+  .contentgrid {
+    display: grid;
+
+    grid-template-columns: 50% 40%;
+    grid-gap: 10px;
+    color: black;
+    background-image: linear-gradient(
+      to bottom,
+      rgba(154, 214, 241, 0.664),
+      rgba(234, 237, 240, 0.8)
+    );
+  }
+  img.imggif {
+    width: 45%;
+    height: 50%;
+    margin-left: 50px;
+    animation-duration: 6s;
+  }
+  .contentgridone {
+    margin-top: 180px;
+    margin-left: 120px;
+    line-height: 1.8;
+    font-size: 20px;
+  }
+  .contentgridtwo {
+    margin-top: 80px;
+  }
+  img.container {
+    margin: 10%;
+    border-radius: 100px;
+    padding: 36px 47px;
+    width: 80%;
+  }
+  .content {
+    background-image: linear-gradient(
+      to top,
+      rgba(154, 214, 241, 0.664),
+      rgba(234, 237, 240, 0.8)
+    );
+    line-height: 2.6;
+    text-align: center;
+    font-size: 20px;
+    height: 700px;
+  }
+  p.space {
+    line-height: 1.8;
+  }
+  .footcontainer {
+    background-color: rgb(118, 160, 173);
+    color: whitesmoke;
+    display: grid;
+    grid-template-columns: 40% 8% 20%;
+    grid-gap: 15%;
+    height: 450px;
+  }
+  .footlogo {
+    margin-top: 5%;
+    margin-left: 10%;
+  }
+  p.spacing {
+    margin-top: 2%;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 23px;
+    margin-left: 10%;
+    text-align: justify;
+  }
+  img.footlogo {
+    width: 40%;
+    height: 40%;
+  }
+  nav.foot {
+    margin-top: 50%;
+  }
+  a.foot {
+    color: whitesmoke;
+
+    text-decoration: none;
+  }
+  a.foot:hover {
+    border-radius: 30px;
+    padding: 10px;
+    color: white;
+    box-shadow: 0px 25px 14px -5px rgba(0, 0, 0, 0.1);
+  }
+  nav.foot li {
+    list-style-type: none;
+    padding: 12px 8px;
+    border-bottom: 2px solid white;
+  }
+  .address {
+    margin-top: 25%;
+    line-height: 1.8;
+  }
+  .Services {
+    text-align: justify;
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  h2.serviceone {
+    margin-top: 1%;
+    margin-left: 50%;
+  }
+  h2.servicetwo {
+    margin-top: 1%;
+    margin-left: 10%;
+  }
+  img.serviceone {
+    margin-top: 3%;
+    margin-left: 50%;
+  }
+  img.servicetwo {
+    margin-left: 10%;
+  }
+  p.serviceone {
+    margin-top: 1%;
+    margin-left: 50%;
+    line-height: 1.5;
+    width: 30%;
+  }
+  p.servicetwo {
+    text-align: justify;
+    margin-top: 1%;
+    margin-left: 10%;
+    line-height: 1.5;
+    width: 30%;
+  }
+  .customers {
+    background-color: whitesmoke;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 1%;
+  }
+  h1.customerhead {
+    margin-top: 12%;
+    padding: 20px 20px;
+  }
+  img.customer {
+    margin-right: 5%;
+    width: 15%;
+    padding: 20px 20px;
+  }
+  @media screen and (max-width: 1000px) {
+    label{
+      display:flex;
+      font-size: 50px;
+      margin-right: 140px;
+    }
+    label:hover nav.head{
+      display:block;
+      visibility: visible;
+
+    }
+    nav.head{
+     visibility: hidden;
+    }
+    .tophead
+   {
+      position: fixed;
+      margin-top: -84px;
+  
+    }
+    img.logo{
+      width:61%;
+    }
+    img.container{
+      margin-left:4%;
+      margin-right: 0px;
+      margin-top: -2%;
+    }
+    .contentgrid {
+      display: block;
+      margin-top: -97px;
+     
+    }
+    .Services,
+    h2.serviceone,
+    p.servicetwo,
+    img.serviceone,
+    img.servicetwo,
+    p.serviceone,
+    h2.servicetwo {
+      display: block;
+      margin: 2%;
+    }
+    .Services,
+    h2.serviceone,
+    p.servicetwo,
+    p.serviceone,
+    h2.servicetwo  {
+      width:95%;
+      margin: 2%;
+    }
+  }
