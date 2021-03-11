@@ -105,7 +105,7 @@ p.space {
   display: grid;
   grid-template-columns: 40% 8% 20%;
   grid-gap: 15%;
-  height: 450px;
+ 
 }
 .footlogo {
   margin-top: 5%;
@@ -204,7 +204,7 @@ img.formatone {
   margin-top: 50px;
 }
 img.formattwo {
-  margin-top: 25%;
+  margin-top: 15%;
   width: 54%;
   height: 50%;
   margin-left: 100px;
@@ -270,12 +270,34 @@ img.formatthree {
   }
   img.formattwo {
     margin-left: 100px;
-    width: 80%;
+    width: 72%;
     height: 90%;
   }
   img.formatthree {
     margin-left: 100px;
     width: 80%;
     height: 90%;
+  }
+  img.customer{
+  display: block;
+  width: 42%;
+  margin-left: 251px;
+  }
+  p.spacing{
+    margin-right: 76px;
+  }
+  .footcontainer{
+    display: block;
+   
+  }
+  nav.foot{
+    margin-left: 19%;
+    margin-top: 5%;
+    width:30%;
+ 
+  }
+  .address{
+    margin-top: 5%;
+    margin-left: 19%;
   }
 }
