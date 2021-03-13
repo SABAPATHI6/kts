@@ -11,6 +11,7 @@
   position: fixed;
   width: 100%;
   margin: 0px;
+  box-shadow: 10px 10px 40px 10px rgb(243, 242, 242);
  
 }
 
@@ -201,6 +202,11 @@ img.customer {
   width: 15%;
   padding: 20px 20px;
 }
+img.customer:hover{
+  transform: scale(1.12);
+  box-shadow: 0 0 5px -19px rgb(243, 242, 242);
+
+}
 img.formatone {
   width: 55%;
   height: 75%;
@@ -220,25 +226,24 @@ img.formatthree {
   margin-left: 100px;
 }
 
+
+
 @media screen and (min-width: 900px) and (max-width: 1000px) {
-  label {
-    display: flex;
-    font-size: 50px;
-    margin-right: 140px;
-  }
-  label:hover nav.head {
-    display: block;
-    visibility: visible;
-  }
-  nav.head {
+  nav.head{
     visibility: hidden;
+  }
+  
+  .dropdown:hover nav.head{
+   display: block;
+    visibility: visible;
   }
   .tophead {
     position: fixed;
     margin-top: -84px;
+   
   }
   img.logo {
-    width: 61%;
+    width: 27%;
   }
   img.container {
     margin-left: 4%;
